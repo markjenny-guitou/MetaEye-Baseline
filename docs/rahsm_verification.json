@@ -1,0 +1,21 @@
+{
+  "date": "2026-11-16",
+  "scope": "Formula and software verification for this RAHSM integration",
+  "rahsm_checks": 18,
+  "existing_baseline_checks": 6,
+  "result": "passed",
+  "synthetic_inputs": true,
+  "real_regdb_training_in_this_verification": false,
+  "real_regdb_metric_experiment_in_this_verification": false,
+  "limitations": "Paper accuracy and undocumented author implementation choices are unverified; see RAHSM复现说明.md.",
+  "source_sha256": {
+    "metaeye/rahsm.py": "9cf47dde6e1087acf53e0ffd8da7371d994158dd489a18ab961c182f6436f3f1",
+    "metaeye/training.py": "655f208a47d55a95f7c7893f0760d9e9d7bc2cfd8ff0759b3428fa93199f76f5",
+    "main.py": "cf3bc3a382682e32cf953e9ca1aeb663499668c54f28060db21a658dc2569755",
+    "configs/rahsm_regdb_laptop.json": "717bec615c3ea5a087d1447cfd5ccf650f41089ad371cb99e6174b1898f9d50d",
+    "scripts/verify_rahsm.py": "a532417060f478fa48018df3e1f4a847b1e866972fbc9ccf8c0261412b58d9a0",
+    "scripts/verify_core.py": "154eecfa23a67e13ecba28010fc84d60fecc2dc1ad2b3c50c6bb8b9ddb609c04"
+  },
+  "reference_paper_sha256": "600f6addfa6b9a94b338ce3b17954135dbffb4e09a242adabb6698a49ea89418",
+  "sdcl_revision": "6033332a214112ff6fe4ee1e462f5f14f5106672"
+}

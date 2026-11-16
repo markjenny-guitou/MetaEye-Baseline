@@ -1,0 +1,36 @@
+{
+  "sources": {
+    "ADCA": {
+      "repository": "yangbincv/ADCA",
+      "revision": "8d0a8cb3e74ec3383ebe9f528ae229d7c6bbdab9",
+      "files": [
+        "LICENSE",
+        "README.md",
+        "ChannelAug.py",
+        "clustercontrast/models/cm.py",
+        "clustercontrast/utils/faiss_rerank.py",
+        "adca_regdb_train.py",
+        "test_regdb.py"
+      ]
+    },
+    "TransReID": {
+      "repository": "damo-cv/TransReID",
+      "revision": "dec55046fcdfadee14e2c28e2df89305d8f7557a",
+      "files": [
+        "LICENSE",
+        "README.md",
+        "model/backbones/vit_pytorch.py"
+      ]
+    },
+    "SDCL": {
+      "repository": "yangbincv/SDCL",
+      "revision": "6033332a214112ff6fe4ee1e462f5f14f5106672",
+      "files": [
+        "LICENSE",
+        "README.md",
+        "cluster_contrast_vit_regdb.py"
+      ]
+    }
+  },
+  "local_patch": "torch._six.container_abcs -> collections.abc"
+}
